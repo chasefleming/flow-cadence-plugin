@@ -1,6 +1,6 @@
 Webpack plugin for Cadence files on the Flow blockchain.
 
-- Load .cdc. files
+- Load .cdc files
 - Optional deploy on change
 
 ## Adding the Plugin
