@@ -1,4 +1,7 @@
-This is a webpack plugin for watching and deploying Cadence files on the Flow blockchain.
+Webpack plugin for Cadence files on the Flow blockchain.
+
+- Load .cdc. files
+- Optional deploy on change
 
 ## Adding the Plugin
 
@@ -9,6 +12,14 @@ npm install flow-cadence-plugin --save-dev
 ```
 
 ### Webpack
+
+If you just want to import cdc files:
+
+```
+new FlowCadencePlugin()
+```
+
+If you want to deploy on change: 
 
 ```
 new FlowCadencePlugin({ 
