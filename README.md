@@ -3,6 +3,16 @@ Webpack plugin for Cadence files on the Flow blockchain.
 - Load .cdc files
 - Optional deploy on change
 
+## Usage
+
+```
+import ReadHelloWorld from '../cadence/scripts/ReadHelloWorld.cdc'
+
+await fcl.query({
+  cadence: ReadHelloWorld
+})
+```
+
 ## Adding the Plugin
 
 ### Install
