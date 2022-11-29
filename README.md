@@ -2,6 +2,12 @@ This is a webpack plugin for watching and deploying Cadence files on the Flow bl
 
 ## Adding the Plugin
 
+### Install
+
+```
+npm install flow-cadence-plugin
+```
+
 ### Webpack
 
 ```
