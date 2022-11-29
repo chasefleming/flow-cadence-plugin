@@ -29,7 +29,7 @@ class FlowCadencePlugin {
         }
 
         if (this.deployOnChange) {
-          await execAsync(`flow project deploy --network=${cleanNetwork(this.network)} --update`)
+          await execAsync(command)
         }
     
         callback()
