@@ -1,6 +1,6 @@
 {
   "name": "flow-cadence-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Webpack plugin for Cadence and Flow.",
   "keywords": [
     "flow",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "types": "cadence.d.ts",
+  "types": "types/global.d.ts",
   "author": "Chase Fleming",
   "license": "ISC"
 }
