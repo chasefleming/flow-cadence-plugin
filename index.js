@@ -22,9 +22,10 @@ class FlowCadencePlugin {
        name: 'FlowCadencePlugin',
       },
       async (compilation, callback) => {
-        let command = `flow project deploy --network=${cleanNetwork(this.network)}`
+        const cleanedNetwork = cleanNetwork(this.network)
+        let command = `flow project deploy --network=${cleanedNetwork}`
 
-        if (this.update) {
+        if (this.update && cleanedNetwork !== 'mainnet') {
           command = `${command} --update`
         }
 
